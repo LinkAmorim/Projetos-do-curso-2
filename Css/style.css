@@ -1,0 +1,66 @@
+/* Fonte utilizada */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+* {
+    font-family: 'DotGothic16', sans-serif;
+
+
+}
+
+/* Cor da fonte e sombreamento geral */
+body {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(194, 47, 47);
+    text-shadow: 2px 2px rgb(102, 25, 25)
+}
+
+/* Imagem de fundo */
+body {
+    background-image: url(../Imagens/Darkroom.jpg);
+
+}
+
+/* Estilização do header */
+.coderoom {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px darkslategray;
+
+}
+
+/* Estilização da caixa de mensagem */
+.caixademensagem1 {
+    border: solid 5px darkslategray;
+    border-radius: 20px;
+
+}
+
+.incrementar {
+    border: solid 5px darkslategray;
+    border-radius: 20px;
+}
+
+/* Estilização do botão */
+.button-style {
+    border: solid 3px darkslategray;
+    /* background-color: darkslategray; */
+    background-color: rgb(7, 58, 7);
+    border-radius: 30px;
+    display: inline-block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    cursor: pointer;
+    text-transform: uppercase;
+    max-width: max-content;
+    font-size: large;
+
+
+}
+
+/* Animação hover do botão */
+.button-style:hover {
+    background: rgb(12, 129, 12);
+}
