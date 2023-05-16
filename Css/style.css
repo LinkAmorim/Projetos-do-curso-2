@@ -14,11 +14,13 @@ body {
     font-size: 20px;
     color: rgb(194, 47, 47);
     text-shadow: 2px 2px rgb(102, 25, 25)
+    
 }
 
 /* Imagem de fundo */
 body {
     background-image: url(../Imagens/Darkroom.jpg);
+    
 
 }
 
@@ -26,6 +28,7 @@ body {
 .coderoom {
     border-radius: 30px;
     box-shadow: 2px 2px 2px darkslategray;
+    
 
 }
 
@@ -33,12 +36,14 @@ body {
 .caixademensagem1 {
     border: solid 5px darkslategray;
     border-radius: 20px;
-    resize:none;
+ resize: none;
+ max-width: 100%;
 
 }
 
 .incrementar {
     border: solid 5px darkslategray;
+    
     border-radius: 20px;
 }
 
@@ -64,4 +69,11 @@ body {
 /* Animação hover do botão */
 .button-style:hover {
     background: rgb(12, 129, 12);
+}
+/* Responsividade do botão de codificar e decodificar */
+.codificar {
+    max-width: 100%;
+}
+.decodificar {
+    max-width: 100%;
 }
