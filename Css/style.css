@@ -33,6 +33,7 @@ body {
 .caixademensagem1 {
     border: solid 5px darkslategray;
     border-radius: 20px;
+    resize: none;
 
 }
 
